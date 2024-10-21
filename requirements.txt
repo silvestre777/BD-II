@@ -1,0 +1,5 @@
+
+#Instalar tudo o que esta dentro do arquivo 
+# pip install -r (nome do arquivo)
+sqlalchemy
+pymysql
