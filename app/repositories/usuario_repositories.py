@@ -19,5 +19,5 @@ class UsuarioRepository:
         self.session.refresh()
 
 
-    def listar_todos_usuario(self):
+    def listar_todos_usuarios(self):
         return self.session.query(Usuario).all()

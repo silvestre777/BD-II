@@ -18,4 +18,4 @@ class Usuario(Base):
         self.senha = senha
 
 #Criando tabela no banco de dados.
-Base.metadata.create_all(brind=db)
+Base.metadata.create_all(bind=db)
